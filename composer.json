@@ -1,0 +1,31 @@
+{
+  "name": "rudloff/xss-filter-comparator",
+  "description": "Easily compare mainstream PHP XSS filters",
+  "license": "GPL-3.0-only",
+  "require": {
+    "drupal/core-utility": "^11.4",
+    "symfony/html-sanitizer": "^8.1",
+    "rhukster/dom-sanitizer": "^1.0",
+    "voku/anti-xss": "^4.1",
+    "ezyang/htmlpurifier": "^4.19",
+    "typo3/html-sanitizer": "^2.3",
+    "htmlawed/htmlawed-class": "^1.2",
+    "ext-dom": "*"
+  },
+  "repositories": [
+    {
+      "name": "htmlawed",
+      "type": "composer",
+      "url": "https://bioinformatics.org/phplabware/downloads/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "XssFilterCompatator\\": "src/"
+    }
+  },
+  "require-dev": {
+    "nikic/php-fuzzer": "^0.0.11",
+    "symfony/var-dumper": "^8.1"
+  }
+}
