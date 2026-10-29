@@ -1,12 +1,12 @@
 <?php
 
-use XssFilterCompatator\AntiXssFilter;
-use XssFilterCompatator\DrupalFilter;
-use XssFilterCompatator\EzyangFilter;
-use XssFilterCompatator\HtmlawedFilter;
-use XssFilterCompatator\RhuksterFilter;
-use XssFilterCompatator\SymfonyFilter;
-use XssFilterCompatator\Typo3Filter;
+use XssFilterComparator\AntiXssFilter;
+use XssFilterComparator\DrupalFilter;
+use XssFilterComparator\EzyangFilter;
+use XssFilterComparator\HtmlawedFilter;
+use XssFilterComparator\RhuksterFilter;
+use XssFilterComparator\SymfonyFilter;
+use XssFilterComparator\Typo3Filter;
 
 require __DIR__ . '/vendor/autoload.php';
 

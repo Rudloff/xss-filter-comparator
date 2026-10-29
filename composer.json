@@ -21,7 +21,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "XssFilterCompatator\\": "src/"
+      "XssFilterComparator\\": "src/"
     }
   },
   "require-dev": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace XssFilterCompatator;
+namespace XssFilterComparator;
 
 use Rhukster\DomSanitizer\DOMSanitizer;
 

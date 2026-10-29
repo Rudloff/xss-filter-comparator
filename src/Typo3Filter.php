@@ -1,6 +1,6 @@
 <?php
 
-namespace XssFilterCompatator;
+namespace XssFilterComparator;
 
 use TYPO3\HtmlSanitizer\Builder\CommonBuilder;
 

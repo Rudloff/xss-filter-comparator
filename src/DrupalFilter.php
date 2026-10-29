@@ -1,6 +1,6 @@
 <?php
 
-namespace XssFilterCompatator;
+namespace XssFilterComparator;
 
 use Drupal\Component\Utility\Xss;
 

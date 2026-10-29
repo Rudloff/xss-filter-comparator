@@ -1,6 +1,6 @@
 <?php
 
-namespace XssFilterCompatator;
+namespace XssFilterComparator;
 
 use voku\helper\AntiXSS;
 
