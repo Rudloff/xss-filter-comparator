@@ -39,7 +39,8 @@ $filters = [
 if (!empty($payload)) {
     foreach ($filters as $filter) {
         echo '<h2>' . Html::escape($filter->getLabel()) . '</h2>';
-        echo $filter->filter($payload);
+        echo '<iframe width="500" height="200" sandbox="allow-scripts allow-modals"
+            srcdoc="' . Html::escape($filter->filter($payload)) . '"></iframe>';
     }
 }
 ?>
